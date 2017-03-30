@@ -1,0 +1,175 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'MyriadPro-Regular', Tahoma, sans-serif;
+  text-decoration: none;
+  list-style: none;
+}
+
+.pageBlock {
+  position: relative;
+}
+
+#content_container {
+  position: relative;
+  margin-left: 250px;
+  box-sizing: border-box;
+}
+
+#content {
+  position: absolute;
+  background-color: #fff;
+  z-index: 400;
+  width: 100%;
+}
+
+
+#up_button {
+  position: fixed;
+  right: 30px;
+  bottom: 0;
+  background-color: #000;
+  text-align: center;
+  border-radius: 50%;
+}
+
+#up_button span {
+  display: inline-block;
+  line-height: 40px;
+  width: 40px;
+  color: #fff;
+}
+.hidden {
+  display: none;
+}
+.active {
+  display: dlock;
+
+}
+
+.galeryBlock {
+  margin: 10px;
+  border: 1px solid #005533;
+  height: 400px;
+  overflow: hidden;
+  background-color: #ddd;
+}
+.galeryHead {
+  text-align: left;
+  padding:  7px 50px;
+  box-sizing: border-box;
+  font-size: 25px;
+  color: #005533;
+}
+
+.galeryBody {
+  border-top: 1px solid #005533;
+  border-bottom: 1px solid #005533;
+  margin: 10px;
+  overflow: hidden;
+}
+.galeryItem {
+  display: inline-block;
+  width: 31%;
+  height: 300px;
+  overflow: hidden;
+  margin: 10px;
+  border: 1px solid #005533;
+}
+
+
+
+.birdSign {
+  color: orange;
+  margin-right: 15px;
+  font-weight: 900;
+}
+
+.contactInfo, .contactFeild {
+  color: #053;
+  margin: 60px  auto;
+}
+
+.contactInfo h2, .contactInfo p {
+  margin: 25px auto;
+  font-size: 20px;
+}
+
+.contactFeild input, .contactFeild textarea, .contactFeild label {
+  display: block;
+  width: 80%;
+  line-height: 25px;
+  color: #053;
+}
+.contactFeild label {
+  margin: 25px 0 5px;
+  text-align: left;
+}
+
+.contactFeild textarea {
+  max-width: 80%;
+  min-width: 80%;
+  max-height: 120px;
+  min-height: 120px;
+  padding: 10px;
+  box-sizing: border-box;
+
+}
+
+.contactFeild input[type="button"] {
+  width: 40%;
+  line-height: 50px;
+  background-color: #aaa;
+  margin-top: 50px;
+  border-style: none;
+  border-radius: 5px;
+  font-size: 20px;
+  font-weight: 900;
+}
+
+.projection_list_service_list {
+  margin: 30px 0;
+}
+
+
+.priceListNames, .priceListTable {
+  float: left;
+  padding: 50px 30px;
+  box-sizing: border-box;
+}
+
+.priceListNames {
+  width: 25%;
+}
+
+.priceListNames li {
+  line-height: 50px;
+  border: 1px solid #053;
+  color: #053;
+  margin: 5px;
+  box-sizing: border-box;
+}
+
+.priceListNames li:hover {
+  background-color: #ddd;
+  font-weight: 900;
+  border-right: 4px solid #053;
+}
+
+.priceListTable table {
+  width: 100%;
+}
+
+.priceListTable {
+  width: 75%;
+}
+
+.activePriceTable {
+  background-color: #ddd;
+  color: #053;
+}
+
+.priceListTable tr {
+  line-height: 30px;
+  color: #053;
+}

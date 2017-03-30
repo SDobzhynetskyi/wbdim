@@ -1,0 +1,47 @@
+.service_block a {
+  display: block;
+  line-height: 400px;
+}
+
+.service_block a span {
+  color: #005533;
+  font-size: 35px;
+  padding-left: 20px;
+
+}
+
+.architecht {
+  background: url(../img/architech_projection.jpg) no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.build_houses {
+  background: url(../img/build_houses_2.png) no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.desing_interior {
+  background: url(../img/design_interior.jpg) no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.design_exterior {
+  background: url(../img/design_exterior.jpeg) no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.renovation_work {
+  background: url(../img/repair_1.jpg) no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.sales {
+  background: url(../img/saling.jpg) no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.rent_mashines {
+  background: url(../img/rent_machine.jpg) no-repeat;
+  background-position: center;
+  background-size: cover;
+}

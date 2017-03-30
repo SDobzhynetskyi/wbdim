@@ -1,0 +1,193 @@
+.pageBlock {
+  position: relative;
+  white-space: nowrap;
+  background-color: rgba(255, 255, 255, 1);;
+}
+
+.pageBlockSection {
+  float: left;
+  white-space: normal;
+  width: 50%;
+  height: 100%;
+  text-align: center;
+  vertical-align: top;
+}
+
+.pageBlockHeader  {
+  text-align: center;
+}
+.pageBlockHeader>span {
+  display: inline-block;
+  line-height: 100px;
+  font-size: 25px;
+  color: #005533;
+}
+.headerBorder {
+  height: 5px;
+  margin: 0 5%;
+  border-radius: 100%;
+  background: radial-gradient(ellipse at 50% -50% , #e0dede 0px, rgba(255, 255, 255, 0) 80%) repeat scroll 0 0 rgba(0, 0, 0, 0);
+}
+
+.pageBlockItems {
+  position: relative;
+  white-space: nowrap;
+}
+.itemBlock {
+  float: left;
+  width: 33%;
+  height: 360px;
+  text-align: center;
+}
+.itemBlock>img {
+  display: inline-block;
+  width: 50%;
+  height: 50%;
+  box-sizing: border-box;
+  vertical-align: top;
+  border-radius: 50%;
+}
+.itemBlock>h2 {
+  color: #005533;
+  height: 15%;
+  white-space: normal;
+}
+.itemBlock>p {
+  height: 35%;
+  padding: 0 10%;
+  color: #005533;
+  box-sizing: border-box;
+  white-space: normal;
+}
+
+.blockText {
+  padding: 5% 15%;
+  box-sizing: border-box;
+  color: #005533;
+}
+.blockText h3 {
+  line-height: 70px;
+  font-size: 40px;
+  text-transform: capitalize;
+}
+.blockText p {
+  margin: 15px auto;
+  line-height: 24px;
+}
+
+
+.backImage {
+  width: 100%;
+  padding-top: 100%;
+  background: url(../img/builder.jpg) no-repeat center;
+  background-size: cover;
+  overflow: hidden;
+}
+.backImage2 {
+  width: 100%;
+  padding-top: 100%;
+  background: url(../img/cottage_2.jpeg) no-repeat center;
+  background-size: cover;
+  overflow: hidden;
+}
+
+
+#map {
+  height: 400px;
+  width: 100%;
+  border-top: 1px solid #053;
+}
+
+.schedule {
+  height: 100%;
+  width: 50%;
+  color: #005533;
+  margin: 20px auto;
+}
+.schedule span {
+  display: inline-block;
+  width: 100%;
+  line-height: 45px;
+  font-size: 18px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+.schedule span:first-child {
+  margin-bottom: 10px;
+  line-height: 60px;
+  font-size: 22px;
+  color: #fff;
+  border-bottom: 1px solid #fff;
+}
+.workDay {
+  font-weight: 500;
+}
+.dayOff {
+  font-weight: 500;
+  color: darkred;
+}
+
+.scheduleBlock {
+  background-color: #268754;
+}
+.scheduleBlockSection {
+  padding-top: 7%;
+}
+
+
+
+/*accordeon panel begin*/
+.accordeonPanel{
+  margin: 50px auto;
+  width: 75%;
+}
+/*.accordeonPanelTitle {
+  line-height: 60px;
+  font-size: 20px;
+  text-transform: capitalize;
+}*/
+.accordeonPanelHead {
+text-transform: uppercase;
+font-size: 14px;
+line-height: 30px;
+border: 1px solid #e8e8e8;
+color: #fff;
+margin: 15px 36px;
+width: 85%;
+background-color: #005533;
+cursor: pointer;
+}
+
+.accordeonPanelHead:hover {
+  background-color: #aaa;
+}
+.accordeonPanelHead span {
+font-size: 20px;
+display: inline-block;
+border-right: 1px solid #e8e8e8;
+color: orange;
+font-weight: 100;
+line-height: 30px;
+padding: 0 15px;
+float: left;
+}
+
+.accordeonPanelSlideList {
+  text-align: left;
+  background-color: #fff;
+  font-family: Arial,  sans-serif;
+  font-size: 14px;
+  color: #053;
+  margin: 20px 60px;
+  line-height: 20px;
+}
+.accordeonPanelSlideList li {
+  list-style: circle;
+
+}
+.accordeonPanelActive {
+background-color: #f4b60d;
+color: white;
+}
+
+/*accordeon panel end*/

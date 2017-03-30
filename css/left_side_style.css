@@ -1,0 +1,82 @@
+.left_side {
+  width: 250px;
+  border-right: 1px solid #E5E5E5;
+  z-index: 2000;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+.logo {
+  width: 100%;
+  height: 250px;
+  background: url(../img/logo.jpg) no-repeat;
+  background-position: center;
+  background-size: contain;
+  border-bottom: 1px solid #E5E5E5;
+}
+
+.logo a {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.menu a {
+  font-size: 18px;
+  margin-right: 2px;
+  display: block;
+  color: #515B69;
+  font-weight: 500;
+  text-align: center;
+  line-height: 50px;
+  border-bottom: 1px solid #E5E5E5;
+}
+
+.menu a:hover {
+  cursor: pointer;
+  border-right: 3px solid green;
+  color: green;
+  font-weight: 600;
+  background-color: #eee;
+}
+
+.menu_level_2 {
+  position: relative;
+}
+
+.open_menu_level_2 {
+  position: absolute;
+  display: none;
+  width: 100%;
+  top: 0;
+  right: -100%;
+  background-color: #fff;
+  z-index: 2000;
+  border-right: 1px solid #E5E5E5;
+  border-left: 1px solid #E5E5E5;
+}
+
+.social_links {
+  padding-top: 10px;
+  box-sizing: border-box;
+}
+
+.social_icon {
+  display: inline-block;
+  width: 30%;
+  text-align: center;
+  margin: 10px 1%;
+}
+
+.social_icon img {
+  display: block;
+  margin: 0 auto;
+  opacity: 0.5;
+  border-radius: 50%;
+}
+
+.social_icon img:hover {
+  opacity: 1;
+  border-radius: 10%;
+}

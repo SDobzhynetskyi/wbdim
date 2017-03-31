@@ -8,9 +8,7 @@ $(document).ready(function(){
   });
 // nemu open tab
 
-
 // accordeon
-  // $(".accordeonPanelHead:first").addClass("accordeonPanelActive");
     $(".accordeonPanel .accordeonPanelSlideList").hide();
 
     $(".accordeonPanelHead").click(function(){

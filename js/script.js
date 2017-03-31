@@ -8,8 +8,6 @@ $(document).ready(function(){
   });
 // nemu open tab
 
-  var slider_height = $(window).height();
-  $("#slider img").css("height", slider_height)
 
 // accordeon
   // $(".accordeonPanelHead:first").addClass("accordeonPanelActive");
